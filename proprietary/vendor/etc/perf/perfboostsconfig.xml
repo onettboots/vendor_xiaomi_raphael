@@ -639,6 +639,40 @@
             Id="0x00001090" Enable="true" Timeout="1000" Target="msmnile"
             Resources="0x40800100, 1000, 0x42804000, 0" />
 
+        <Config
+            Id="0x00001090" Enable="true" Timeout="1000" Target="shima"
+            Resources="0x40800100, 1324, 0x42804000, 0" />
+
+        <Config
+            Id="0x00001090" Enable="true" Timeout="1000" Target="yupik"
+            Resources="0x40800100, 1324, 0x42804000, 0" />
+
+    <!--Performance mode-->
+        <!-- UCLAMP_BOOST -->
+        <!-- SCHED_WINDOW_TICKS_UPDATE -->
+        <!-- CPUBOOST_MIN_FREQ BIG Core resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ LITTLE Core resource opcode, value-->
+        <!-- CPUBOOST_MIN_FREQ PRIME Core resource opcode, value-->
+        <!-- SCHED_BUSY_HYSTERSIS_CPU_MASK resource opcode, value-->
+        <!-- LPM_BIAS_HYST resource opcode, value-->
+        <!-- DISABLE_PASR, value-->
+        <!-- SCHED_PREFER_SPREAD resource opcode, value -->
+        <!-- Type="", Performance mode -->
+        <Config
+            Id="0x00001091" Enable="true" Target="lahaina"
+            Resources="0x40CAC000, 20, 0x40CA4000, 2, 0x40800000, 1555, 0x40800100, 800, 0x40800200, 1670,
+                       0x40C74000, 0xFF, 0x40408000, 0x63, 0x42C1C000, 1, 0x40CA8000, 3" />
+
+        <Config
+            Id="0x00001091" Enable="true" Target="shima"
+            Resources="0x40CAC000, 20, 0x40CA4000, 2, 0x40800000, 1651, 0x40800100, 806, 0x40800200, 1766,
+                       0x40C74000, 0xFF, 0x40408000, 0x63, 0x42C1C000, 1, 0x40CA8000, 3" />
+
+        <Config
+            Id="0x00001091" Enable="true" Target="yupik"
+            Resources="0x40CAC000, 20, 0x40CA4000, 2, 0x40800000, 1651, 0x40800100, 806, 0x40800200, 1766,
+                       0x40C74000, 0xFF, 0x40408000, 0x63, 0x42C1C000, 1, 0x40CA8000, 3" />
+
     <!--Display on Resource -->
         <!-- Display on resource opcode, value -->
         <Config
