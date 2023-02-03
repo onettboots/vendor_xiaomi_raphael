@@ -121,7 +121,7 @@ cc_prebuilt_library_shared {
 
 android_app_import {
 	name: "pasrservice",
-	owner: "nothing",
+	owner: "xiaomi",
 	apk: "proprietary/vendor/app/pasrservice/pasrservice.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -132,7 +132,7 @@ android_app_import {
 
 android_app_import {
 	name: "PerformanceMode",
-	owner: "nothing",
+	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/PerformanceMode/PerformanceMode.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -143,7 +143,7 @@ android_app_import {
 
 android_app_import {
 	name: "PowerSaveMode",
-	owner: "nothing",
+	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/PowerSaveMode/PowerSaveMode.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -154,7 +154,7 @@ android_app_import {
 
 android_app_import {
 	name: "workloadclassifier",
-	owner: "nothing",
+	owner: "xiaomi",
 	apk: "proprietary/system_ext/app/workloadclassifier/workloadclassifier.apk",
 	certificate: "platform",
 	dex_preopt: {
@@ -291,19 +291,19 @@ android_app_import {
 
 dex_import {
 	name: "QPerformance",
-	owner: "nothing",
+	owner: "xiaomi",
 	jars: ["proprietary/system/framework/QPerformance.jar"],
 }
 
 dex_import {
 	name: "QXPerformance",
-	owner: "nothing",
+	owner: "xiaomi",
 	jars: ["proprietary/system/framework/QXPerformance.jar"],
 }
 
 dex_import {
 	name: "UxPerformance",
-	owner: "nothing",
+	owner: "xiaomi",
 	jars: ["proprietary/system/framework/UxPerformance.jar"],
 }
 
@@ -355,7 +355,7 @@ dex_import {
 
 prebuilt_etc_xml {
 	name: "vendor.qti.memory.pasrmanager@1.0-service",
-	owner: "nothing",
+	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.memory.pasrmanager@1.0-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
@@ -411,6 +411,15 @@ prebuilt_etc_xml {
 	name: "vendor.qti.gnss@4.0-service",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.hardware.limits@1.0-service",
+	owner: "xiaomi",
+	src: "proprietary/vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	soc_specific: true,
