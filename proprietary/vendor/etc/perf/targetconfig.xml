@@ -58,4 +58,57 @@
 
     </Config1>
 
+    <Config2>
+         <TargetInfo
+             Target="shima"
+             NumClusters="3"
+             TotalNumCores="8"
+             SocIds="450"
+             SynCore="1"
+             CoreCtlCpu="4"
+             MinCoreOnline="0"
+             CpufreqGov="1"
+             MinFpsForTuning="60" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="little" />
+         <ClustersInfo Id="1" NumCores="3" Type="big" />
+         <ClustersInfo Id="2" NumCores="1" Type="prime" />
+
+    </Config2>
+
+    <Config3>
+         <TargetInfo
+             Target="yupik"
+             NumClusters="3"
+             TotalNumCores="8"
+             SocIds="475,497,498,499,515"
+             SynCore="1"
+             CoreCtlCpu="4"
+             MinCoreOnline="0"
+             CpufreqGov="1"
+             MinFpsForTuning="60" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="little" />
+         <ClustersInfo Id="1" NumCores="3" Type="big" />
+         <ClustersInfo Id="2" NumCores="1" Type="prime" />
+
+    </Config3>
+
+    <Config4>
+         <TargetInfo
+             Target="katmai"
+             NumClusters="2"
+             TotalNumCores="8"
+             SocIds="575,576"
+             SynCore="1"
+             CoreCtlCpu="4"
+             MinCoreOnline="0"
+             CpufreqGov="1"
+             MinFpsForTuning="60" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="little" />
+         <ClustersInfo Id="1" NumCores="4" Type="big" />
+
+    </Config4>
+    
 </TargetConfig>
