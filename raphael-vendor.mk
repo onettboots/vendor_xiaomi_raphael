@@ -192,8 +192,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/vendor/etc/camera/visidon_clearshot_params_algoup.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/visidon_clearshot_params_algoup.xml \
     vendor/xiaomi/raphael/proprietary/vendor/etc/camera/watermark_font_2300_3199.dat:$(TARGET_COPY_OUT_VENDOR)/etc/camera/watermark_font_2300_3199.dat \
     vendor/xiaomi/raphael/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
-    vendor/xiaomi/raphael/proprietary/vendor/etc/cne/profileSlm.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileSlm.xml \
-    vendor/xiaomi/raphael/proprietary/vendor/etc/cne/slm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/slm.conf \
     vendor/xiaomi/raphael/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/xiaomi/raphael/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/xiaomi/raphael/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -1098,6 +1096,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/raphael/proprietary/vendor/lib64/libxml.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxml.so \
     vendor/xiaomi/raphael/proprietary/vendor/lib64/libxtadapter.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxtadapter.so \
     vendor/xiaomi/raphael/proprietary/vendor/lib64/mi.motor.daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/mi.motor.daemon.so \
+    vendor/xiaomi/raphael/proprietary/vendor/lib64/qcrilHalMarshal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrilHalMarshal.so \
+    vendor/xiaomi/raphael/proprietary/vendor/lib64/qcril_hal_client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcril_hal_client.so \
     vendor/xiaomi/raphael/proprietary/vendor/lib64/qcrild_librilutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qcrild_librilutils.so \
     vendor/xiaomi/raphael/proprietary/vendor/lib64/qtibus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtibus.so \
     vendor/xiaomi/raphael/proprietary/vendor/lib64/qtimutex.so:$(TARGET_COPY_OUT_VENDOR)/lib64/qtimutex.so \
