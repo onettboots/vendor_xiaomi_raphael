@@ -15,3 +15,6 @@ service thermal-engine /vendor/bin/thermal-engine
 	socket thermal-recv-client stream 0660 system oem_2907
 	socket thermal-recv-passive-client stream 0660 system oem_2907
 	socket thermal-send-rule stream 0660 system oem_2907
+
+on property:sys.boot_completed=1
+	restart thermal-engine
