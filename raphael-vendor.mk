@@ -1252,7 +1252,6 @@ PRODUCT_PACKAGES += \
     libfastcvopt \
     libthermalclient \
     liblbs_core \
-    IFAAService \
     vendor.qti.hardware.fm@1.0 \
     ImsRcsService \
     MotoSignatureApp \
